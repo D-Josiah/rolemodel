@@ -1,0 +1,108 @@
+.coach{
+    background:$mygradient;
+    display: flex;
+    height: 100vh;
+    
+    width: 100%;
+    justify-content: start;
+    align-content: start;
+    .coach-image{
+      background-image: url('/src/assets/coach-img.png'); /* Adjust path if necessary */
+      background-size: cover;
+      background-position: center;
+      height: 100vh; /* Adjust as needed */
+      width: 50%;
+      
+    }
+    .coach-content{
+      width: 50%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 30px;
+      h2{
+        font-size: 3.5rem;
+      }
+      p{
+        font-size: 1.5rem;
+      }
+      .highlighted-text{
+        padding: 8px;
+        color: $myblue;
+        background-color: $mylightblue;
+      }
+    }
+  }
+
+  @media (max-width: 600px) {
+    /* Styles for screens 480px or less */
+    .coach{
+      flex-direction: column;
+      height: fit-content;
+      button{
+        margin: auto;
+        margin-bottom: 40px;
+      }
+      .coach-image{
+        width: 100%;
+  
+      }
+      .coach-content{
+        width: 100%;
+        h2{
+          font-size: 3rem;
+          text-align: center;
+        }
+        p{
+          text-align: center;
+          font-size: 1rem;
+        }
+      }
+    }
+  }  
+
+  @media (min-width: 601px) and (max-width: 768px) {
+    .coach{
+      flex-direction: column;
+      height: fit-content;
+      button{
+        margin: auto;
+        margin-bottom: 40px;
+      }
+      .coach-image{
+        margin: auto;
+        width: 70%;
+  
+      }
+      .coach-content{
+        width: 100%;
+        h2{
+          font-size: 3rem;
+          text-align: center;
+        }
+        p{
+          text-align: center;
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+
+  @media (min-width: 769px) and (max-width: 1280px) {
+    .coach{
+      gap: 5%;
+      .coach-content{
+        width: 55%;
+        h2{
+          font-size: 2.5rem;
+        }
+        p{
+          font-size: 1rem;
+        }
+      }
+      .coach-image{
+        width: 40%;
+      }
+    }
+  }

@@ -1,0 +1,131 @@
+.about{
+    
+    .content{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+        h1{
+            font-size: 3em;
+        }
+        p{
+            width: 70%;
+            text-align: center;
+            font-size: 1.3rem;
+        }
+        img{
+            width: 300px;
+        }
+    }
+    .mission-vision{
+        width: 100%;
+        display: flex;
+        gap: 10%;
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 80px;
+        .mission, .vision{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            width: 29%;
+            p{
+                font-size: 1.2rem;
+            }
+        }
+        hr{
+            border: 1px solid $myorange;
+        }
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .about{
+        .content{
+            p{
+                width: 80%;
+            }
+        }
+        .mission-vision{
+       
+            width: 100%;
+            .mission, .vision{
+                width: 50%;
+
+                p{
+                    font-size: 1.2rem;
+                    
+                    
+                }
+            }
+           
+        }
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .about{
+        .content{
+            h1{
+                font-size: 2.5rem;
+            }
+            p{
+                width: 90%;
+
+            }
+        }
+        .mission-vision{
+       
+            width: 100%;
+            .mission, .vision{
+                width: 50%;
+
+                p{
+                    font-size: 1rem;
+                    
+                    
+                }
+            }
+           
+        }
+    }
+}
+
+@media (max-width: 560px) {
+    .about{
+        .content{
+          
+            h1{
+                font-size: 1.8rem;
+                text-align: center;
+            }
+            p{
+                width: 90%;
+            
+                font-size: 1rem;
+
+            }
+        }
+        .mission-vision{
+       
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .mission, .vision{
+                width: 90%;
+                margin-top: 30px;
+
+                p{
+                    font-size: 1rem;
+                    
+                    
+                }
+            }
+           
+        }
+    }
+}
