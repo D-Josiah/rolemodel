@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "../components/Header";
+import Coach from "../components/Coach";
 
 
 const Home = () => {
@@ -75,22 +76,7 @@ const Home = () => {
             </div>
           </div>
         </section>
-        <section className="coach max padding">
-          <div className="coach-image"></div>
-          <div className="coach-content">
-            <h2>
-              MEET <br />
-              <span className="highlighted-text">DR. BRETT</span>
-            </h2>
-            <p>
-              Dr. Brett, founder of Role Model Academy, has 20+ years of experience
-              helping individuals achieve clarity, overcome challenges, and succeed in
-              life and career. With passion and proven strategies, he’s here to guide
-              you to your best self.
-            </p>
-            <button>Learn More</button>
-          </div>
-        </section>
+        <Coach/>
         <section className="testimonials max padding spacer" id="testimonials">
           <h2>What Makes Us Different?</h2>
           <h2>Hear It From Them!</h2>

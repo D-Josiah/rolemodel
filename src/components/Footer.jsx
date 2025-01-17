@@ -34,10 +34,14 @@ const Footer = () => {
             </div>
             <p>Start your journey today and join the Role Model Academy to unlock your full potential.</p>
             <div className="socials">
-              <img src="/assets/facebook-icon.png" alt="Facebook"></img>
-              <img src="/assets/telegram-icon.png" alt="Telegram"></img>
-              <img src="/assets/youtube-icon.png" alt="YouTube"></img>
+              <a href="https://t.me/DrBrettmentalgamecoach" target="_blank" rel="noopener noreferrer">
+                <img src="/assets/telegram-icon.png" alt="Telegram" />
+              </a>
+              <a href="https://www.drbrettdenkin.com/youtube/" target="_blank" rel="noopener noreferrer">
+                <img src="/assets/youtube-icon.png" alt="YouTube" />
+              </a>
             </div>
+
           </div>
           <div className="quick-links">
             <h3>Quick Links</h3>
