@@ -36,7 +36,6 @@ const Footer = () => {
             <div className="socials">
               <img src="/assets/facebook-icon.png" alt="Facebook"></img>
               <img src="/assets/telegram-icon.png" alt="Telegram"></img>
-              <img src="/assets/instagram-icon.png" alt="Instagram"></img>
               <img src="/assets/youtube-icon.png" alt="YouTube"></img>
             </div>
           </div>
