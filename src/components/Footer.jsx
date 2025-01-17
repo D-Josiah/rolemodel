@@ -29,15 +29,15 @@ const Footer = () => {
         <div className="footer-details">
           <div className="contact-info">
             <div className="title">
-              <img src="/src/assets/logo.png" alt="Logo"></img>
+              <img src="/assets/logo.png" alt="Logo"></img>
               <h3>ROLE MODEL ACADEMY</h3>
             </div>
             <p>Start your journey today and join the Role Model Academy to unlock your full potential.</p>
             <div className="socials">
-              <img src="/src/assets/facebook-icon.png" alt="Facebook"></img>
-              <img src="/src/assets/telegram-icon.png" alt="Telegram"></img>
-              <img src="/src/assets/instagram-icon.png" alt="Instagram"></img>
-              <img src="/src/assets/youtube-icon.png" alt="YouTube"></img>
+              <img src="/assets/facebook-icon.png" alt="Facebook"></img>
+              <img src="/assets/telegram-icon.png" alt="Telegram"></img>
+              <img src="/assets/instagram-icon.png" alt="Instagram"></img>
+              <img src="/assets/youtube-icon.png" alt="YouTube"></img>
             </div>
           </div>
           <div className="quick-links">

@@ -12,7 +12,7 @@ const About = () => {
       <section className='content spacer max padding'>
         <h1>ROLE MODEL ACADEMY</h1>
         <p>You were born for greatness. But achieving peak performance requires more than just talent. It demands unwavering discipline, unwavering focus, and the unwavering support of a community that understands your drive. The Role Model Academy is more than just a group; it's a crucible for high-achievers. Connect with fellow athletes, entrepreneurs, and visionaries who push you to be your best.</p>
-        <img src="src/assets/big-logo.png"></img>
+        <img src="/assets/big-logo.png"></img>
         <button>JOIN THE ACADEMY</button>
 
       </section>

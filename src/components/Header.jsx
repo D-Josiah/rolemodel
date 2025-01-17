@@ -45,7 +45,7 @@ const Header = () => {
 
           {/* Menu Icon */}
           <img 
-            src="/src/assets/menu-icon.png" 
+            src="/assets/menu-icon.png" 
             alt="menu button icon" 
             className="menu-icon" 
             onClick={() => setIsMenuOpen(true)} // Open the menu
@@ -57,7 +57,7 @@ const Header = () => {
         <div  className={`side-menu ${isMenuOpen ? 'open' : ''}`}>
           {/* Close Icon */}
           <img 
-            src="/src/assets/close-icon.png" 
+            src="/assets/close-icon.png" 
             alt="close button icon" 
             className="close-icon" 
             onClick={() => setIsMenuOpen(false)} // Close the menu

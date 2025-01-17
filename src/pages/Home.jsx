@@ -18,25 +18,25 @@ const Home = () => {
             <button className="hero-btn">JOIN US ON TELEGRAM</button>
             <div className="proposition-wrap">
               <div className="proposition">
-                <img src="/src/assets/brain-icon.png" alt="brain icon"></img>
+                <img src="/assets/brain-icon.png" alt="brain icon"></img>
                 <h3>Develop unshakeable mental fortitude.</h3>
               </div>
               <div className="proposition">
-                <img src="src/assets/meditate-icon.png" alt="meditate icon"></img>
+                <img src="/assets/meditate-icon.png" alt="meditate icon"></img>
                 <h3>Master your mind and body.</h3>
               </div>
               <div className="proposition">
-                <img src="src/assets/leadership-icon.png" alt="leadership icon"></img>
+                <img src="/assets/leadership-icon.png" alt="leadership icon"></img>
                 <h3>Unlock your leadership potential.</h3>
               </div>
               <div className="proposition">
-                <img src="src/assets/support-icon.png" alt="support icon"></img>
+                <img src="/assets/support-icon.png" alt="support icon"></img>
                 <h3>Build a support system that fuels your ambition.</h3>
               </div>
             </div>
           </div>
           <img
-            src="src/assets/hero-image.png"
+            src="/assets/hero-image.png"
             alt="hero image showing target audience such as athletes, students, business owners"
             className="hero-image"
           />
@@ -44,26 +44,26 @@ const Home = () => {
         <section className="benefits max padding spacer" id="benefits">
           <div className="header-benefits">
             <h2>Why Join Role Model Academy?</h2>
-            <img src="/src/assets/logo.png" alt="logo"></img>
+            <img src="/assets/logo.png" alt="logo"></img>
           </div>
           <div className="benefits-wrap">
             <div className="benefit">
-              <img src="/src/assets/insights-icon.png" alt="insights icon"></img>
+              <img src="/assets/insights-icon.png" alt="insights icon"></img>
               <h3>Access to Expert Insights</h3>
               <p>Learn proven strategies from top leaders and performance coaches.</p>
             </div>
             <div className="benefit">
-              <img src="/src/assets/community-icon.png" alt="community icon"></img>
+              <img src="/assets/community-icon.png" alt="community icon"></img>
               <h3>Supportive Community</h3>
               <p>Connect with like-minded individuals for growth and support.</p>
             </div>
             <div className="benefit">
-              <img src="/src/assets/challenges-icon.png" alt="challenges icon"></img>
+              <img src="/assets/challenges-icon.png" alt="challenges icon"></img>
               <h3>Interactive Challenges to Expert Insights</h3>
               <p>Strengthen resilience with engaging growth-focused challenges.</p>
             </div>
             <div className="benefit">
-              <img src="/src/assets/learning-icon.png" alt="learning icon"></img>
+              <img src="/assets/learning-icon.png" alt="learning icon"></img>
               <h3>Flexible Learning</h3>
               <p>Enjoy workshops, webinars, and on-demand content anytime.</p>
             </div>
@@ -90,7 +90,7 @@ const Home = () => {
           <h2>Hear It From Them!</h2>
           <div className="testimonial-wrap">
             <div className="testimonial side gray-bg">
-              <img src="/src/assets/quote-icon.png" alt="quote icon"></img>
+              <img src="/assets/quote-icon.png" alt="quote icon"></img>
               <p className="name">JM R.</p>
               <p className="creds">entrepreneur</p>
               <p className="comment">
@@ -101,7 +101,7 @@ const Home = () => {
             </div>
 
             <div className="testimonial gray-bg">
-              <img src="/src/assets/quote-icon.png" alt="quote icon"></img>
+              <img src="/assets/quote-icon.png" alt="quote icon"></img>
               <p className="name">Corinne T. </p>
               <p className="creds">award-winning author, spokesperson, consultant</p>
               <p className="comment">
@@ -112,7 +112,7 @@ const Home = () => {
             </div>
 
             <div className="testimonial side gray-bg">
-              <img src="/src/assets/quote-icon.png" alt="quote icon"></img>
+              <img src="/assets/quote-icon.png" alt="quote icon"></img>
               <p className="name">Bob T.</p>
               <p className="creds">entrepreneur</p>
               <p className="comment">
