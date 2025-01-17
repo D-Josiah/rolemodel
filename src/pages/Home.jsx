@@ -15,7 +15,13 @@ const Home = () => {
               Join the <span className="orange-text">Role Model Academy </span>
             </h1>
             <h2> Elevate Your Game. Conquer Your Limits.</h2>
-            <button className="hero-btn">JOIN US ON TELEGRAM</button>
+            <button
+              className="hero-btn"
+              onClick={() => window.open('https://t.me/DrBrettmentalgamecoach', '_blank')}
+            >
+              JOIN US ON TELEGRAM
+            </button>
+
             <div className="proposition-wrap">
               <div className="proposition">
                 <img src="/assets/brain-icon.png" alt="brain icon"></img>

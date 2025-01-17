@@ -111,16 +111,17 @@ const Header = () => {
           </ul>
 
           {/* Join Button */}
-          <button 
-            className="join-button" 
+          <button
+            className="join-button"
             onClick={() => {
-              navigate('/contact');
+              window.open('https://t.me/DrBrettmentalgamecoach', '_blank'); // Opens link in a new tab
               setIsMenuOpen(false); // Close menu when Join is clicked
-            }} 
+            }}
             aria-label="Join Now"
           >
             JOIN
           </button>
+
         </div>
       </nav>
     </header>

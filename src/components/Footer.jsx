@@ -58,7 +58,12 @@ const Footer = () => {
           </div>
           <div className="cta">
             <h3>Join Now</h3>
-            <button>JOIN THE ACADEMY</button>
+            <button
+              onClick={() => window.open('https://t.me/DrBrettmentalgamecoach', '_blank')}
+            >
+              JOIN THE ACADEMY
+            </button>
+
           </div>
         </div>
         <hr />
